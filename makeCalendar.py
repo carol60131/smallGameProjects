@@ -80,7 +80,7 @@ def main():
 
 		if response.isdecimal() and int(response) > 0:
 			month = int(response)
-			if 1 <= month <=12: 
+			if 1 <= month <= 12: 
 				break
 
 		print('Please enter a number from 1 to 12.')
